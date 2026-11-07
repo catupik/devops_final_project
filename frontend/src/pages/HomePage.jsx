@@ -47,7 +47,7 @@ const HomePage = ({ searchQuery }) => {
   if (loading) {
     return (
       <div className="loading">
-        <div>🔄 Загружаем товары...</div>
+        <div>🔄 Загружаем все товары...</div>
       </div>
     );
   }
